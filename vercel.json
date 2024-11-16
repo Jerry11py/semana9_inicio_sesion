@@ -11,8 +11,8 @@
   ],
   "routes": [
     {
-      "src": "/static/(.*)",  // Ruta para servir archivos estáticos
-      "dest": "/static/$1"    // Servir directamente desde el directorio de estáticos
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
